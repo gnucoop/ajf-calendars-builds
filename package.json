@@ -1,6 +1,6 @@
 {
   "name": "@ajf/calendars",
-  "version": "13.1.1-3da14e6c5",
+  "version": "13.1.2-c66f249e7",
   "description": "",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/gnucoop/ajf#readme",
   "peerDependencies": {
-    "@ajf/core": "13.1.1",
+    "@ajf/core": "13.1.2",
     "@angular/core": "^13.2.5",
     "date-fns": "^2.28.0"
   },
