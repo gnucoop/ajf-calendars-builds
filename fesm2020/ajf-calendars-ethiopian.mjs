@@ -616,9 +616,9 @@ class AjfEthiopianCalendarService extends AjfCalendarService {
         return rows;
     }
 }
-AjfEthiopianCalendarService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianCalendarService, deps: null, target: i0.ɵɵFactoryTarget.Injectable });
-AjfEthiopianCalendarService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianCalendarService, providedIn: 'root' });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianCalendarService, decorators: [{
+AjfEthiopianCalendarService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianCalendarService, deps: null, target: i0.ɵɵFactoryTarget.Injectable });
+AjfEthiopianCalendarService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianCalendarService, providedIn: 'root' });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianCalendarService, decorators: [{
             type: Injectable,
             args: [{ providedIn: 'root' }]
         }] });
@@ -657,10 +657,10 @@ class AjfEthiopianDatePipe {
         }
     }
 }
-AjfEthiopianDatePipe.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianDatePipe, deps: [], target: i0.ɵɵFactoryTarget.Pipe });
-AjfEthiopianDatePipe.ɵpipe = i0.ɵɵngDeclarePipe({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianDatePipe, name: "ajfEthiopianDate" });
-AjfEthiopianDatePipe.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianDatePipe });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianDatePipe, decorators: [{
+AjfEthiopianDatePipe.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianDatePipe, deps: [], target: i0.ɵɵFactoryTarget.Pipe });
+AjfEthiopianDatePipe.ɵpipe = i0.ɵɵngDeclarePipe({ minVersion: "14.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianDatePipe, name: "ajfEthiopianDate" });
+AjfEthiopianDatePipe.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianDatePipe });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianDatePipe, decorators: [{
             type: Injectable
         }, {
             type: Pipe,
@@ -690,10 +690,10 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.2.5", ngImpor
  */
 class AjfEthiopianCalendarModule {
 }
-AjfEthiopianCalendarModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianCalendarModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
-AjfEthiopianCalendarModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianCalendarModule, declarations: [AjfEthiopianDatePipe], exports: [AjfEthiopianDatePipe] });
-AjfEthiopianCalendarModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianCalendarModule, providers: [{ provide: AjfCalendarService, useClass: AjfEthiopianCalendarService }] });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianCalendarModule, decorators: [{
+AjfEthiopianCalendarModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianCalendarModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+AjfEthiopianCalendarModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianCalendarModule, declarations: [AjfEthiopianDatePipe], exports: [AjfEthiopianDatePipe] });
+AjfEthiopianCalendarModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianCalendarModule, providers: [{ provide: AjfCalendarService, useClass: AjfEthiopianCalendarService }] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianCalendarModule, decorators: [{
             type: NgModule,
             args: [{
                     declarations: [AjfEthiopianDatePipe],

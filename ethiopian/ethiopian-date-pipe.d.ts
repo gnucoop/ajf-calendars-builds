@@ -24,6 +24,6 @@ import * as i0 from "@angular/core";
 export declare class AjfEthiopianDatePipe implements PipeTransform {
     transform(value: any): string | null;
     static ɵfac: i0.ɵɵFactoryDeclaration<AjfEthiopianDatePipe, never>;
-    static ɵpipe: i0.ɵɵPipeDeclaration<AjfEthiopianDatePipe, "ajfEthiopianDate">;
+    static ɵpipe: i0.ɵɵPipeDeclaration<AjfEthiopianDatePipe, "ajfEthiopianDate", false>;
     static ɵprov: i0.ɵɵInjectableDeclaration<AjfEthiopianDatePipe>;
 }

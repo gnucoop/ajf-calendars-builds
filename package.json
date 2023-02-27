@@ -1,6 +1,6 @@
 {
   "name": "@ajf/calendars",
-  "version": "13.2.15-89c1a7d7",
+  "version": "15.0.0-932730d4",
   "description": "",
   "repository": {
     "type": "git",
@@ -13,8 +13,8 @@
   },
   "homepage": "https://github.com/gnucoop/ajf#readme",
   "peerDependencies": {
-    "@ajf/core": "13.2.15",
-    "@angular/core": "^13.2.5",
+    "@ajf/core": "15.0.0",
+    "@angular/core": "^15.0.4",
     "date-fns": "^2.28.0"
   },
   "dependencies": {
@@ -25,13 +25,13 @@
   "esm2020": "esm2020/ajf-calendars.mjs",
   "fesm2020": "fesm2020/ajf-calendars.mjs",
   "fesm2015": "fesm2015/ajf-calendars.mjs",
-  "typings": "ajf-calendars.d.ts",
+  "typings": "index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./ajf-calendars.d.ts",
+      "types": "./index.d.ts",
       "esm2020": "./esm2020/ajf-calendars.mjs",
       "es2020": "./fesm2020/ajf-calendars.mjs",
       "es2015": "./fesm2015/ajf-calendars.mjs",
@@ -39,7 +39,7 @@
       "default": "./fesm2020/ajf-calendars.mjs"
     },
     "./ethiopian": {
-      "types": "./ethiopian/ajf-calendars-ethiopian.d.ts",
+      "types": "./ethiopian/index.d.ts",
       "esm2020": "./esm2020/ethiopian/ajf-calendars-ethiopian.mjs",
       "es2020": "./fesm2020/ajf-calendars-ethiopian.mjs",
       "es2015": "./fesm2015/ajf-calendars-ethiopian.mjs",

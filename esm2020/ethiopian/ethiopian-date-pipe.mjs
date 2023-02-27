@@ -35,10 +35,10 @@ export class AjfEthiopianDatePipe {
         }
     }
 }
-AjfEthiopianDatePipe.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianDatePipe, deps: [], target: i0.ɵɵFactoryTarget.Pipe });
-AjfEthiopianDatePipe.ɵpipe = i0.ɵɵngDeclarePipe({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianDatePipe, name: "ajfEthiopianDate" });
-AjfEthiopianDatePipe.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianDatePipe });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.2.5", ngImport: i0, type: AjfEthiopianDatePipe, decorators: [{
+AjfEthiopianDatePipe.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianDatePipe, deps: [], target: i0.ɵɵFactoryTarget.Pipe });
+AjfEthiopianDatePipe.ɵpipe = i0.ɵɵngDeclarePipe({ minVersion: "14.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianDatePipe, name: "ajfEthiopianDate" });
+AjfEthiopianDatePipe.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianDatePipe });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.0.4", ngImport: i0, type: AjfEthiopianDatePipe, decorators: [{
             type: Injectable
         }, {
             type: Pipe,
